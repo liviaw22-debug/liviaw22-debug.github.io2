@@ -60,6 +60,7 @@ img {
     max-width: 100%;
     object-fit: cover;
     /* Resizes the image to cover the entire container */
+    display: block;
 }
 
 .container {
@@ -77,6 +78,8 @@ img {
 .image-container {
     text-align: center;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .main-text-color {
@@ -100,12 +103,19 @@ img {
 .links-container,
 .slidedown,
 .external-link {
-    width: 100%;
+    width: 85%;
     min-width: 50%;
     padding: .5em 1em;
     text-decoration: none;
     color: inherit;
     text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.intro {
+    padding: 1em;
+    line-height: 1.6;
 }
 
 .button, .external-link {
@@ -138,10 +148,6 @@ img {
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
     /* Lowering the shadow */ 
 } 
-
-.intro {
-    margin: 0 auto;
-}
 
 .section {
     margin-top: 1em;
