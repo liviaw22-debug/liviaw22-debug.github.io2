@@ -24,9 +24,8 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    /* The image used for the site background. Try changing skyscape.jpg to stars.jpg. Put a replacement photo in the images folder and, in line 21 below, replace skyscape.jpg with yourbackgroundf[...]
-    /* The linear gradient darkens the image, like putting a sunglasses lens on top of it. If you want to darken the image even more, change 0.1 (both times) to 0.3 or higher */
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.55)), url(img_9138.jpg);
+    /* Beautiful purple gradient background */
+    background: linear-gradient(135deg, rgba(160, 39, 83, 0.9) 0%, rgba(225, 176, 234, 0.7) 50%, rgba(160, 39, 83, 0.9) 100%);
     /* Prevents the browser from repeating or "tiling" the background image */
     background-repeat: no-repeat;
     background-position: center;
